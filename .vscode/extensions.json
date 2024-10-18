@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "vest.vs-code-prettier-eslint",
+    "rvest.vs-code-prettier-eslint",
+    "davidanson.vscode-markdownlint"
+  ]
+}

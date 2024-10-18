@@ -1,0 +1,41 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "Type, functions, monads, whatever I think may be useful. Also this is all as a learning exercise if developing all these tools",
+  "author": "Jeremy Fairbanks",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "pnpm run build ",
+    "start": "node dist/index.js",
+    "build": "pnpm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhilomathJ/toolbox"
+  },
+  "keywords": [
+    "functional",
+    "monad",
+    "typescript",
+    "library"
+  ],
+  "dependencies": {
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.7.6",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.10.0",
+    "eslint": "^9.13.0",
+    "markdownlint": "^0.35.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.10.0"
+  }
+}
